@@ -68,10 +68,11 @@ def list_demo():
     # print(alist[1])
     # print(alist[-1])
     # print(alist[-2])
-    alist[1] = 12
+    alist[0] = 12
     print(alist)
 
 
+# from day01 import base_type
 if __name__ == '__main__':
     # aint = '123'
     # str_demo()
@@ -80,10 +81,10 @@ if __name__ == '__main__':
     # aasjda()
     # add_demo('hello',str(aint))
     # str_d1emo()
-    print( jianfa_demo(5,2))
-    value = jianfa_demo(5,3)
-    print(value)
-    value1 = add_demo(2,3)
+    # print( jianfa_demo(5,2))
+    # value = jianfa_demo(5,3)
+    # print(value)
+    # value1 = add_demo(2,3)
     # list_demo()
-
+    list_demo()
 

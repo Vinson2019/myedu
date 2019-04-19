@@ -4,7 +4,9 @@ def lest_name(a):
 def lest_qname():
     alist = [1,'世','界','你','好']
     print(alist[0:6])
-    alist[0] = 5
+    # alist[0] = 5
+    alist.pop()
+    print(alist)
 
 
 if __name__ == '__main__':
